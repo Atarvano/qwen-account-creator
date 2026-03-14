@@ -1,12 +1,13 @@
 # Qwen Account Creator
 
-![Qwen signup flow](img/step2.png)
+![Qwen signup flow](image.png)
 
 [🇮🇩 Bahasa Indonesia](#indonesian) | [🇬🇧 English](#english)
 
 ---
 
 <a id="indonesian"></a>
+
 ## 🇮🇩 Bahasa Indonesia
 
 Sebuah skrip otomatisasi berbasis Node.js yang menggunakan Playwright untuk membuat akun Qwen secara otomatis. Skrip ini menghasilkan email sementara dari `generator.email`, membuat identitas acak, mengisi form pendaftaran Qwen, membuka link aktivasi email, lalu menyimpan akun yang berhasil ke `accounts.txt`.
@@ -23,6 +24,7 @@ Sebuah skrip otomatisasi berbasis Node.js yang menggunakan Playwright untuk memb
 ### 📋 Persyaratan Sistem
 
 Pastikan Anda sudah menginstal:
+
 - **Node.js**: Versi 18.0.0 atau yang lebih baru.
 - **NPM**: Biasanya sudah ikut terpasang bersama Node.js.
 
@@ -101,6 +103,7 @@ Contoh isi `config.json`:
 ---
 
 <a id="english"></a>
+
 ## 🇬🇧 English
 
 An automated Node.js script that uses Playwright to create Qwen accounts automatically. The script generates a temporary mailbox from `generator.email`, creates a random identity, fills the Qwen signup form, opens the activation link from email, and saves successful accounts to `accounts.txt`.
@@ -117,6 +120,7 @@ An automated Node.js script that uses Playwright to create Qwen accounts automat
 ### 📋 System Requirements
 
 Make sure you have the following installed:
+
 - **Node.js**: Version 18.0.0 or newer.
 - **NPM**: Usually included with Node.js.
 
